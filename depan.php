@@ -10,13 +10,14 @@ spl_autoload_register(function($class) {
 
 	echo "<br>";
 
-	use src\View;
+/*	use src\View;
 	$g = new View();
 	$g->render();
 
 	echo "<br>";
 
 	$z = new \src\Mahasiswa();
-	$z->test();
+	$z->test();*/
 
+	\model\Mahasiswa::munculkanNama();
  ?>
